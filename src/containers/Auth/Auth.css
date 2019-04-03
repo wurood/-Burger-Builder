@@ -1,0 +1,32 @@
+.Auth{
+    width: 80%;
+    border: 2px solid black;
+    margin:20px auto;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 3px #ccc;
+    box-sizing: border-box;
+}
+
+@media(min-width:600px){
+    .Auth{
+        width: 500px;
+    }
+
+}
+
+.button{
+    margin-left:500px;
+    width: 15%;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    font-weight: bold;
+}
+.Danger {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #da3722;
+}
